@@ -142,6 +142,16 @@ public class Animal
         
         // TODO: finish this...
         
+        if((otherAni.name.equals(this.name)) && (otherAni.color.equals(this.color)) && (otherAni.weight == this.weight) && (otherAni.height == this.height))
+        {
+        	return true;
+        }
+        
+        else
+        {
+        	return false;
+        }
+        
         /* return TODO; */
     }
 }

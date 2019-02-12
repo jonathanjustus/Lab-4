@@ -183,7 +183,7 @@ public class Zoo
      */
     public String toString() 
     {
-        String result = "These animals live in the zoo: \n";
+        String result = "These animal live in the zoo: \n";
         for (int i = 0; i < numAnimals; ++i) 
         {
             // add each Animal toString in the array to the result string
